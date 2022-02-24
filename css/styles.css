@@ -7,7 +7,7 @@
 /* Акцент #2196F3; */
 /* Мелкий текст #757575; */
 /* Футер текст rgba(255, 255, 255, 0.6); */
-/* Бордер #AFB1B8 */
+/* Иконки #AFB1B8 */
 
 :root {
   --prime-bcg: #ffffff;
@@ -18,7 +18,7 @@
   --small-text: #757575;
   --accent: #2196f3;
   --footer-text: rgba(255, 255, 255, 0.6);
-  --border: #AFB1B8
+  --icons: #AFB1B8
 }
 
 body {
@@ -47,7 +47,7 @@ img {
 
 .header {
   background-color: var(--prime-bcg);
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .container {
@@ -336,7 +336,6 @@ img {
   background: var(--special-bcg);
   border-radius: 4px;
   padding: 6px 22px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter .filter-item + .filter-item {
@@ -348,6 +347,7 @@ img {
   color: var(--prime-bcg);
   background-color: var(--accent);
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .works .title {
@@ -370,7 +370,7 @@ img {
 
 .works .list {
   background-color: var(--prime-bcg);
-  border: 1px solid var(--border);
+  border: 1px solid #EEEEEE;
   margin: 15px;
 } 
 
@@ -413,7 +413,7 @@ img {
 }
 
 .soclist-icon {
-  fill: var(--small-text);
+  fill: var(--icons)
 }
 
 .soclist-link:hover,
@@ -442,7 +442,7 @@ img {
   align-items: center;
   width: 170px;
   height: 92px;
-  border: 1px solid var(--border);
+  border: 1px solid var(--icons);
   border-radius: 4px;
 }
 
@@ -451,7 +451,7 @@ img {
 }
 
 .client-logo {
-  fill: var(--border);
+  fill: var(--icons);
 }
 
 /* Подвал */
